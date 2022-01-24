@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Elite Coaching Center</h1>
+        <table>
+            <tr>
+                <td>Student Name</td>
+                <td><input type="text" id="sname" name="sname"  required></td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select name="course" id="course" required>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Oracle">Oracle</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <input type="button" value="Register" id="submit" onclick="display()">
+        <div id="greet"></div>
+    </body>
+</html>
